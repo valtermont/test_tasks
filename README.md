@@ -49,6 +49,7 @@ class Example
 
 ```php
 <?php
+
 $example = new Example();
 
 foreach ($example as $item)
@@ -56,6 +57,8 @@ foreach ($example as $item)
     echo $item;
     echo “\n”;
 }
+
+?>
 ```
 Out:
 ```
@@ -64,7 +67,9 @@ red
 blue
 ```
 ```php
-<?php echo get_class($example);
+<?php 
+echo get_class($example);
+?>
 ```
 Out:
 ```
