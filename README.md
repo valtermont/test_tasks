@@ -56,17 +56,18 @@ foreach ($example as $item)
     echo “\n”;
 }
 ```
+Out:
 ```
-//Результат
-
-//orange
-//red
-//blue
-
+orange
+red
+blue
+```
+```php
 echo get_class($example);
-
-//Результат
-//Example
+```
+Out:
+```
+Example
 ```
 
 ## Тестовое задание №4
