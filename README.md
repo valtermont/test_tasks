@@ -68,7 +68,9 @@ blue
 ```
 ```php
 <?php 
+
 echo get_class($example);
+
 ?>
 ```
 Out:
