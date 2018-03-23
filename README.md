@@ -55,7 +55,7 @@ $example = new Example();
 foreach ($example as $item)
 {
     echo $item;
-    echo “\n”;
+    echo "\n";
 }
 
 ?>
