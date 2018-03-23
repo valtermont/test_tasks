@@ -48,6 +48,7 @@ class Example
 Как необходимо модифицировать класс, чтобы результаты не изменились при выполнении следующего кода (т.е. код ниже менять нельзя, можно только менять класса)
 
 ```php
+<?php
 $example = new Example();
 
 foreach ($example as $item)
@@ -63,7 +64,7 @@ red
 blue
 ```
 ```php
-echo get_class($example);
+<?php echo get_class($example);
 ```
 Out:
 ```
